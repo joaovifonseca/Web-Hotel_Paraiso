@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initia-scale=1">
+	<title>Hotel Paraíso</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<a href="#"><img src="img/logo.png" alt="Hotel Paraíso"></a>
+		<nav>
+			<li><a href="./index.html">Home</a></li>
+			<li><a onClick="generateReport();">Sobre</a></li>
+			<script>
+				 function generateReport() {
+   					window.location.href = '#DivIdToScroll';
+ 				}	
+			</script>
+			<li><a href="./reservas.php">Reservas</a></li>
+			<li><a href="./contato.html">Contato</a></li>
+            <li><a href="./login.html">Login/Cadastro</a></li>
+		</nav>
+	</header>
+
+	<section class="hero">
+		<h1>Conheça este paraíso chamado Itacaré</h1>
+		<h3>"Aconchego, conforto, simpatia e alto astral"</h3>
+		<a class="btn" href="">Saiba mais</a>
+	</section>
+
+	<section class="conheca-o-hotel">
+		<h3 >Conheça o Hotel Paraíso!</h3>
+		<p>Feche os olhos e imagina o paraíso. Um lugar no meio da Mata Atlântica e banhado pelo mar, onde você encontra paz, tranquilidade, conforto e comodidade.</p>
+
+		<hr>
+
+		<ul class="grid">
+			<li class="small" style="background-image: url('img/itacare-01.jpg');"></li>
+			<li class="large" style="background-image: url('img/itacare-02.jpg');"></li>
+			<li class="large" style="background-image: url('img/itacare-03.jpg');"></li>
+			<li class="small" style="background-image: url('img/itarace-04.jpg');"></li>
+		</ul>
+	</section>
+
+	<section class="caracteristicas" id="DivIdToScroll">
+		<h3>Único hotel pé na areia de Itacaré</h3>
+		<p>Implantado em uma área completamente arborizada, o Hotel Paraíso é o único hotel pé de Itacaré. Aqui o Mar será o seu companheiro e você terá as belezas da natureza como guia.</p>
+		<hr>
+		<ul class="grid">
+			<li>
+				<i class="fas fa-location-arrow"></i>
+				<h4>Localização</h4>
+				<p>Localizada no sul da Bahia, entre o mar e a Mata Atlântica, Itacaré tem refrescantes cachoeiras praias belíssimas, muitas delas tão pequenas que nem aparecem nos mapas.</p>
+			</li>
+
+			<li>
+				<i class="fas fa-gift"></i>
+				<h4>Pacote de Ofertas</h4>
+				<p>Você pode optar por um plano para as sua férias cadastra-se seu email na lista para receber novidades sobre nossos novos pacotes de férias</p>
+			</li>
+
+			<li>
+				<i class="fas fa-home"></i>
+				<h4>Acomodações</h4>
+				<p>Você tará o melhor em acomodações, quartos com camas largas, serviço de quarto, café da manhã para todos os hóspedes</p>
+			</li>
+		</ul>
+	</section>
+
+	<section class="newsletter">
+		<h3>Newsletter</h3>
+		<p>Assine nossa newsletter para se manter atualizado com nossos serviços e programação de eventos culturais.</p>
+	<hr>
+	<form>
+		<input type="text" placeholder="Email" id="Email">
+		<button onclick="myFunction()"> Cadastrar </button>
+	</form>
+	</section>
+
+	<div class="container">
+            <div style="height: 90px"></div>
+        </div>
+
+        <footer style="width:100%; line-height: 0px;bottom: 0">
+                <p>Todos os direitos reservados - Hotel Paraíso 2019
+        </footer>
+</body>
+
+</html>
