@@ -1,0 +1,10 @@
+Instruções:
+
+Importar o arquivo .sql presente na pasta BancoDados.
+Colocar os aquivos na pasta do XAPP.
+
+Não é necessário fazer essas alterações apenas caso queira executar no desktop, o site está publicado em uma página web:
+
+http://hotelparaiso.atwebpages.com
+
+O aplicativo está apontando para a web também.
